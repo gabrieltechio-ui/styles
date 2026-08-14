@@ -10883,26 +10883,26 @@ header.masthead .bg-circle {
   background: linear-gradient(0deg, #0d47a1 0%, #42a5f5 100%);
 }
 header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
+  height: 40rem;
+  width: 40rem;
   bottom: -55rem;
   left: -55rem;
 }
 header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
+  height: 30rem;
+  width: 30rem;
   top: -25rem;
   right: -25rem;
 }
 header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
+  height: 10rem;
+  width: 10rem;
   bottom: -10rem;
   right: 5%;
 }
 header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
+  height: 15rem;
+  width: 15rem;
   top: -5rem;
   right: 35%;
 }
