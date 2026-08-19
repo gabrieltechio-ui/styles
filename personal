@@ -1,0 +1,70 @@
+<style>
+
+
+.container{
+	padding: 50px;
+}
+
+.card{
+	padding-top: 10px;
+}
+
+.titulo{
+	font-size: 28px; 
+	color: white !important; 
+	margin-bottom: 0.5rem;
+}
+
+.subtitulo{
+	font-size: 16px; 
+	margin-bottom: 1rem;
+}
+
+.cards{
+	border-radius: 50px !important; 
+	font-size: 16px;
+	padding: 10px;
+      
+}
+
+.servicos{
+	font-size: 18px; 
+	line-height: 1.6; 
+	letter-spacing: 1px;
+}
+
+.itens{
+	font-size: 16px; 
+	line-height: 1.6; 
+	letter-spacing: 0px;
+	font-weight: 500;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-botton: 10px;
+}
+
+.contato{
+	font-size: 14px; 
+	line-height: 1.5; 
+	letter-spacing: 1px;
+}
+
+.fonte20{
+	font-size: 20px;
+}
+
+.endereco{
+	font-size: 18px;
+	color: darkgrey;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-botton: 10px;
+}
+
+.botao{
+ font-size: 16px;
+ border-radius: 30px;
+}
+</style>
