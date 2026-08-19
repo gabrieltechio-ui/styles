@@ -10904,3 +10904,45 @@ header.masthead .bg-circle-4 {
   background-color: lightgrey !important;
   color: white;
 }
+
+.smdeati h1,
+.smdeati h2,
+.smdeati h3,
+.smdeati h4,
+.smdeati h5,
+.smdeati h6 {
+    font-family: 'Catamaran', sans-serif !important;
+    font-style: normal !important;
+}
+
+.smdeati h1 {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+}
+
+.smdeati h2 {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+}
+
+.smdeati h3 {
+    font-size: 1.75rem !important;
+    font-weight: 700 !important;
+}
+
+
+
+.smdeati h1,
+.smdeati h2,
+.smdeati h3 {
+    background: red !important;
+    color: yellow !important;
+    font-size: 40px !important;
+}
+
+
+
+
+
+
+
