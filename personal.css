@@ -64,3 +64,25 @@
  font-size: 16px;
  border-radius: 30px;
 }
+
+.missao{
+
+	font-size: 25px;
+	color: darkslategray;
+	font-weight: bold;
+	font-style: italic;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
+
+.texto-missao{
+	font-size: 18px;
+	color: darkslategray;
+	font-style: italic;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
