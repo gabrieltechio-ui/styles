@@ -49,6 +49,7 @@
 
 .fonte20{
 	font-size: 20px;
+		padding-top: 30px;
 }
 
 .endereco{
@@ -64,6 +65,8 @@
  font-size: 16px;
  border-radius: 30px;
  padding: 10px;
+	border: 1px solid white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 255, 1.0);
 }
 
 .missao{
@@ -98,10 +101,5 @@
     border: 1px solid white;
     box-shadow: 0px 0px 70px rgba(0, 0, 255, 1.0);
 }
-.fonte20{
-	padding-top: 30px;
-}
-.botao{
-	border: 1px solid white;
-    box-shadow: 0px 5px 10px rgba(0, 0, 255, 1.0);
-}
+
+
