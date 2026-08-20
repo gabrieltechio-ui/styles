@@ -116,9 +116,9 @@
 .acessar{
  font-size: 16px;
  border-radius: 30px;
- padding: 10px;
+ padding: 20px;
 	border: 1px solid white;
-    box-shadow: 0px 0px 10px rgba(50, 200, 50, 1.0);
+    box-shadow: 0px 5px 10px rgba(50, 200, 50, 1.0);
 }
 
 
