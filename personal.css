@@ -45,7 +45,7 @@
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-top: 10px;
-	padding-botton: 30px;
+	padding-bottom: 20px;
 }
 
 .contato{
@@ -119,7 +119,7 @@
  border-radius: 30px;
  padding: 10px;
 	border: 1px solid white;
-    box-shadow: 0px 5px 5px rgba(50, 200, 50, 1.0);
+    box-shadow: 0px 5px 5px rgba(50, 200, 50, 0.8);
 }
 
 
