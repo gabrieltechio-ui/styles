@@ -34,6 +34,7 @@
 	letter-spacing: 1px;
 	padding: 15px;
 	padding-top: 30px;
+	color: #1283BE !important;
 }
 
 .itens{
@@ -44,7 +45,7 @@
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-top: 10px;
-	padding-botton: 20px;
+	padding-botton: 30px;
 }
 
 .contato{
