@@ -51,7 +51,8 @@
 
 .fonte20{
 	font-size: 20px;
-		padding-top: 30px;
+		padding-top: 10px;
+		color: white;
 }
 
 .endereco{
@@ -68,13 +69,13 @@
  border-radius: 30px;
  padding: 10px;
 	border: 1px solid white;
-    box-shadow: 0px 5px 10px rgba(0, 0, 255, 1.0);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 1.0);
 }
 
 .missao{
 
 	font-size: 25px;
-	color: darkslategray;
+	color: white;
 	font-weight: bold;
 	font-style: italic;
 	padding-left: 50px;
@@ -85,7 +86,7 @@
 
 .texto-missao{
 	font-size: 18px;
-	color: darkslategray;
+	color: white;
 	font-style: italic;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -101,7 +102,7 @@
 }
 .foto{
     border: 1px solid white;
-    box-shadow: 0px 0px 70px rgba(0, 0, 255, 1.0);
+    box-shadow: 0px 0px 900px rgba(255, 255, 255, 1.0);
 }
 
 
