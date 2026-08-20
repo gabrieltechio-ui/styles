@@ -44,7 +44,7 @@
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-top: 10px;
-	padding-botton: 10px;
+	padding-botton: 20px;
 }
 
 .contato{
@@ -116,7 +116,7 @@
 .acessar{
  font-size: 16px;
  border-radius: 30px;
- padding: 20px;
+ padding: 10px;
 	border: 1px solid white;
     box-shadow: 0px 5px 10px rgba(50, 200, 50, 1.0);
 }
