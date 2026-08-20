@@ -109,7 +109,7 @@
 }
 
 .card-footer{
-	border-radius: 0 0 15px 15px;
+	border-radius: 0 0 15px 15px !important;
 }
 
 
