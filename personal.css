@@ -123,10 +123,10 @@
 }
 
 .secretario-municipal{
-	padding-top:15px;
-	padding-bottom:15px;
-	font-size: 40px; 
-	color: white;
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+	font-size: 40px !important; 
+	color: white !important;
 }
 
 
