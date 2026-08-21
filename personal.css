@@ -130,3 +130,54 @@
 }
 
 
+
+.titulo-servicos {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.servico-card {
+    min-height: 60px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px 18px;
+
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    text-decoration: none;
+    color: #333;
+
+    transition: all 0.2s ease;
+}
+
+.servico-card:hover {
+    border-color: #aaa;
+    background: #fafafa;
+    color: #333;
+}
+
+.servico-icone {
+    flex: 0 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 25px;
+    color: #00a8e0;
+}
+
+.servico-texto {
+    font-size: 16px;
+    line-height: 1.15;
+    font-weight: 400;
+}
+
+
