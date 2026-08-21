@@ -180,4 +180,8 @@
     font-weight: 400;
 }
 
+.bi-arrow-down-right-circle::before {
+    content: "\F120";
+}
+
 
