@@ -110,7 +110,8 @@
 }
 .card-footer{
 	background-color: #1283BE !important;
-	border-radius: 0 0 30px 30px !important; 
+	border-radius: 0 0 30px 30px !important;
+	margin-bottom: 0px !important;
 }
 
 .acessar{
