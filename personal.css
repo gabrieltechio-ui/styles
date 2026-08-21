@@ -181,3 +181,30 @@
 }
 
 
+.owl-stage {
+    height: auto !important;
+}
+
+.owl-stage-outer {
+    height: auto !important;
+}
+
+.owl-stage::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Itens que não estão ativos não participam da altura */
+.owl-item:not(.active) {
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Aba atual */
+.owl-item.active {
+    height: auto !important;
+    overflow: visible !important;
+}
+
+
