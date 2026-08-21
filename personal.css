@@ -139,21 +139,16 @@
 }
 
 .servico-card {
-    min-height: 60px;
+    min-height: 40px;
     width: 100%;
-
     display: flex;
     align-items: center;
-
     padding: 10px 18px;
-
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
-
     text-decoration: none;
     color: #333;
-
     transition: all 0.2s ease;
 }
 
@@ -165,11 +160,9 @@
 
 .servico-icone {
     flex: 0 0 40px;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
     font-size: 25px;
     color: #00a8e0;
 }
@@ -178,10 +171,6 @@
     font-size: 16px;
     line-height: 1.15;
     font-weight: 400;
-}
-
-.bi-arrow-down-right-circle::before {
-    content: "\F120";
 }
 
 
