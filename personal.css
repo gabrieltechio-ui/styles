@@ -171,6 +171,11 @@
 }
 
 .servico-icone {
+	flex: 0 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
     color: #00a8e0;
 }
 
@@ -212,7 +217,8 @@
 	
 }
 
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container{
+.pagina-outer 
+.container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container{
 	margin-bottom: 0pt !important;
 }
 
