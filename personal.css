@@ -183,28 +183,33 @@
 
 .owl-stage {
     height: auto !important;
+	margin-bottom: 0pt !important;
 }
 
 .owl-stage-outer {
     height: auto !important;
+	margin-bottom: 0pt !important;
 }
 
 .owl-stage::after {
     content: "";
     display: block;
     clear: both;
+	margin-bottom: 0pt !important;
 }
 
 /* Itens que não estão ativos não participam da altura */
 .owl-item:not(.active) {
     height: 0 !important;
     overflow: hidden !important;
+	margin-bottom: 0pt !important;
 }
 
 /* Aba atual */
 .owl-item.active {
     height: auto !important;
     overflow: visible !important;
+	margin-bottom: 0pt !important;
 }
 
 
