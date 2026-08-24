@@ -1,14 +1,14 @@
 .container{
 	padding: 50px;
 }
-body{
+.body, html{
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 1.0);
 }
 
 .card{
 	padding-top: 10px;
 	border-radius: 30px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1.0);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 1.0);
 }
 
 .titulo{
