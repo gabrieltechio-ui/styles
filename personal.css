@@ -171,13 +171,6 @@
 }
 
 .servico-icone {
-    flex: 0 0 40px;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    font-size: 25px;
     color: #00a8e0;
 }
 
