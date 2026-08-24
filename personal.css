@@ -217,10 +217,9 @@
 	
 }
 
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p:has(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div:has(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li:has(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span:has(.icone) {
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p.icone,
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div.icone,
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li.icone,
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span.icone {
     margin-bottom: 0pt !important;
 }
-
