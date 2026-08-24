@@ -217,9 +217,9 @@
 	
 }
 
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p.icone,
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div.icone,
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li.icone,
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span.icone {
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p,
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div,
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li,
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span {
     margin-bottom: 0pt !important;
 }
