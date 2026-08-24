@@ -217,8 +217,12 @@
 	
 }
 
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p:has(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div:has(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li:has(.icone) {
-    margin-bottom: 0pt !important;
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p:not(.icone),
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div:not(.icone),
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li:not(.icone),
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span:not(.icone) {
+    min-height: 1.25rem;
+    margin-bottom: 8pt;
+    white-space: normal !important;
+    overflow-wrap: break-word;
 }
