@@ -5,6 +5,8 @@
 .card{
 	padding-top: 10px;
 	border-radius: 30px;
+	border: 1px solid black;
+    box-shadow: 0px 0px 80px rgba(255, 255, 255, 1.0);
 }
 
 .titulo{
