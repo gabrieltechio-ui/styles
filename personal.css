@@ -130,7 +130,7 @@
 }
 
 .secao{
- font-size: 20px;
+ font-size: 18px;
  border-radius: 30px;
  padding: 10px;
  color: white;
@@ -140,7 +140,7 @@
 }
 
 .secao:hover{
- font-size: 20px;
+ font-size: 18px;
  border-radius: 30px;
  padding: 10px;
  color: #ee0979;
