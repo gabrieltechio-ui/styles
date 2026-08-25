@@ -243,5 +243,51 @@
 	
 }
 
+/* Esconde o checkbox */
+.collapse-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.collapse-css {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease;
+    padding-top: 10px;
+
+   
+}
+
+.collapse-css > div {
+    overflow: hidden;
+   
+  
+}
+
+.collapse-toggle:checked ~ .collapse-css {
+    grid-template-rows: 1fr;
+
+
+}
+.collapse-margin{
+
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.toggle-on {
+    display: none;
+}
+
+.collapse-toggle:checked ~ .text-left .toggle-off {
+    display: none;
+}
+
+.collapse-toggle:checked ~ .text-left .toggle-on {
+    display: inline-block;
+}
+
 
 
