@@ -185,6 +185,11 @@
     font-weight: 400;
 }
 
+.texto{
+	padding: 20px;
+	size: 18px;
+}
+
 
 .owl-stage {
     height: auto !important;
