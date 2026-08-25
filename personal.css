@@ -130,12 +130,23 @@
 }
 
 .secao{
- font-size: 16px;
+ font-size: 20px;
  border-radius: 30px;
  padding: 10px;
-	border: 1px solid white;
-    box-shadow: 0px 5px 5px rgba(239, 9, 121, 1.0);
-	background-color: #ee0979 !important;
+ color: white;
+ border: 1px solid white;
+ box-shadow: 0px 5px 5px rgba(239, 9, 121, 1.0);
+ background-color: #ee0979 !important;
+}
+
+.secao:hover{
+ font-size: 20px;
+ border-radius: 30px;
+ padding: 10px;
+ color: #ee0979;
+ border: 1px solid #ee0979;
+ box-shadow: 0px 5px 5px rgba(239, 9, 121, 1.0);
+ background-color: white !important;
 }
 
 .secretario-municipal{
