@@ -245,48 +245,48 @@
 
 /* Esconde o checkbox */
 .collapse-toggle {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
+    position: absolute !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 
 }
 
 .collapse-css {
-    display: grid;
-    grid-template-rows: 0fr;
-    transition: grid-template-rows 0.35s ease;
-    padding-top: 10px;
+    display: grid !important;
+    grid-template-rows: 0fr !important;
+    transition: grid-template-rows 0.35s ease !important;
+    padding-top: 10px !important;
 
    
 }
 
 .collapse-css > div {
-    overflow: hidden;
+    overflow: hidden !important;
    
   
 }
 
 .collapse-toggle:checked ~ .collapse-css {
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr !important;
 
 
 }
 .collapse-margin{
 
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 10px !important;
+	margin-left: 10px !important;
 }
 
 .toggle-on {
-    display: none;
+    display: none !important;
 }
 
 .collapse-toggle:checked ~ .text-left .toggle-off {
-    display: none;
+    display: none !important;
 }
 
 .collapse-toggle:checked ~ .text-left .toggle-on {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 
