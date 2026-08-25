@@ -243,6 +243,10 @@
 	
 }
 
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li, .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span 
+{
+ min-height: 0rem !important;
+}
 
 
 
