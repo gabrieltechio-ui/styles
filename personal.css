@@ -246,10 +246,24 @@
 	
 }
 
-.collapse {
+/* Esconde o checkbox */
+.collapse-toggle {
     display: none;
 }
 
-.collapse:target {
+/* Estado fechado */
+.collapse {
     display: block;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition:
+        max-height 0.35s ease,
+        opacity 0.15s ease;
+}
+
+/* Estado aberto */
+.collapse-toggle:checked ~ .collapse {
+    max-height: 1000px;
+    opacity: 1;
 }
