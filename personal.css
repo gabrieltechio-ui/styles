@@ -246,12 +246,20 @@
 	
 }
 
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor p:not(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor div:not(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor li:not(.icone),
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor span:not(.icone) {
-    min-height: 1.25rem;
-    margin-bottom: 8pt;
-    white-space: normal !important;
-    overflow-wrap: break-word;
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+
+  &.collapse-horizontal {
+    width: 0;
+    height: auto;
+    @include transition($transition-collapse-width);
+  }
 }
