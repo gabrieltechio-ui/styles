@@ -266,5 +266,170 @@
 }
 
 
+.titulo-coluna {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    margin: 0 0 16px 0;
+}
 
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.item-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    min-height: 50px;
+
+    padding: 0 12px;
+    margin-bottom: 10px;
+
+    border-radius: 4px;
+
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.item-menu i {
+    font-size: 19px;
+}
+
+.item-menu:hover {
+    color: #fff;
+    opacity: 0.88;
+}
+
+.bg-purple {
+    background: #aa2eaa;
+}
+
+.bg-blue {
+    background: #24517f;
+}
+
+.bg-green {
+    background: #299447;
+}
+
+.bg-cyan {
+    background: #20a3df;
+}
+
+
+/* SERVIÇOS */
+
+.servico {
+    display: flex;
+    align-items: center;
+
+    min-height: 60px;
+
+    padding: 8px 14px;
+
+    color: #333;
+    text-decoration: none;
+
+    font-size: 14px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.servico:last-child {
+    border-bottom: 0;
+}
+
+.servico span {
+    width: 25px;
+
+    margin-right: 4px;
+
+    color: #1999dc;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.servico div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.servico:hover {
+    background: #f8f8f8;
+}
+
+
+/* LINKS ÚTEIS */
+
+.link-util {
+    display: flex;
+    align-items: center;
+
+    min-height: 60px;
+
+    padding: 8px 12px;
+
+    color: #444;
+    text-decoration: none;
+
+    font-size: 14px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.link-util:last-child {
+    border-bottom: 0;
+}
+
+.link-util i {
+    margin-right: 8px;
+
+    color: #159bdd;
+
+    font-size: 20px;
+}
+
+.link-util:hover {
+    background: #f8f8f8;
+}
+
+
+/* ARRECADAÇÃO */
+
+.arrecadacao {
+    max-height: 318px;
+    overflow-y: auto;
+}
+
+.arrecadacao::-webkit-scrollbar {
+    width: 7px;
+}
+
+.arrecadacao::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+}
+
+.arrecadacao::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+
+/* remove margem do último botão */
+
+.item-menu:last-child {
+    margin-bottom: 0;
+}
 
