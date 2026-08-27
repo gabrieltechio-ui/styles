@@ -255,7 +255,9 @@
 .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor .collapse-item p,
 .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor .collapse-item div,
 .pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor .collapse-item li,
-.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor .collapse-item span {
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor .collapse-item span,
+
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container .area-conteudo--editor .collapse-item .servico-icone{
     min-height: 0 !important;
 	margin-bottom: 0pt;
 	
