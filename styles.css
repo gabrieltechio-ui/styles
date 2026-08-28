@@ -11168,7 +11168,9 @@ header.masthead .bg-circle-4 {
             font-size: 12px;
             margin-top:50px;
         }
-        .contato{
+        .secretaria{
+          	line-height: 1.5; 
+          	letter-spacing: 1px;
             font-size: 8px;
         }
         .foto{
