@@ -262,14 +262,14 @@
 	margin-right: 0px !important;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 500px) {
 
     .espacamento-responsivo {
         padding: 0 !important;
     }
 
     .espacamento-responsivo .row {
-        --bs-gutter-x: 0.25rem !important;
+        --bs-gutter-x: 0.50rem !important;
         --bs-gutter-y: 1rem !important;
     }
 
