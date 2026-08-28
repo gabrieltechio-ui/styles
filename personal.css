@@ -269,8 +269,8 @@
     }
 
     .espacamento-responsivo .row {
-        --bs-gutter-x: 0.25rem;
-        --bs-gutter-y: 1rem;
+        --bs-gutter-x: 0.25rem !important;
+        --bs-gutter-y: 1rem !important;
     }
 
 }
