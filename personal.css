@@ -1,9 +1,6 @@
-@media screen (max-width: 575px) {
-    :root {
-        --largura-conteudo: calc(100vw - 0rem) !important
-    }
+.pagina-outer .container-pagina-base .area-conteudo-pagina .content-container {
+    padding: 0px !important;
 }
-
 
 .container{
 	padding: 50px;
