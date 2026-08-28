@@ -211,6 +211,10 @@
 }
 
 
+.banner-ipm .owl-stage {
+    height: 100% !important;
+}
+
 .owl-stage {
     height: auto !important;
 
