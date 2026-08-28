@@ -11158,28 +11158,6 @@ header.masthead .bg-circle-4 {
         cursor: pointer;
     }
 
-    /* Celulares */
-    @media (max-width: 576px) {
-        .card-service {
-            width: 90px;
-            height: 110px;
-        }
-        .col-6{
-            font-size: 12px;
-            margin-top:50px;
-        }
-        .secretaria{
-          	line-height: 1.5; 
-          	letter-spacing: 1px;
-            font-size: 9px;
-        }
-        .foto{
-            margin-bottom: 10px;
-        }
-       
-    }
-
-
 
 .card-service:hover {
       border-color: #0099ff;
