@@ -212,7 +212,7 @@
 
 
 .owl-stage {
-    *height: auto;
+    height: auto !important;
 
 }
 .elemento-banner .container-banner-ipm .banner-size-container .banner-ipm .owl-stage {
