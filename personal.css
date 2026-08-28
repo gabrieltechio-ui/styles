@@ -262,5 +262,18 @@
 	margin-right: 0px !important;
 }
 
+@media (max-width: 399px) {
+
+    .espacamento-responsivo {
+        padding: 0 !important;
+    }
+
+    .espacamento-responsivo .row {
+        --bs-gutter-x: 0.25rem;
+        --bs-gutter-y: 1rem;
+    }
+
+}
+
 
 
