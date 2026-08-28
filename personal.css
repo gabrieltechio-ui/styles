@@ -275,5 +275,41 @@
 
 }
 
+@media screen and (min-width: 1600px) {
+    :root {
+        --largura-conteudo: 1450px !important
+    }
+}
+
+
+@media screen and (min-width: 1200px)and (max-width: 1599px) {
+    :root {
+        --largura-conteudo: 1400px !important
+    }
+}
+
+@media screen and (min-width: 992px)and (max-width: 1199px) {
+    :root {
+        --largura-conteudo: 1000px !important
+    }
+}
+
+@media screen and (min-width: 768px)and (max-width: 991px) {
+    :root {
+        --largura-conteudo: 950px !important
+    }
+}
+
+@media screen and (min-width: 576px)and (max-width: 767px) {
+    :root {
+        --largura-conteudo: 700px !important
+    }
+}
+
+@media screen and (max-width: 575px) {
+    :root {
+        --largura-conteudo: calc(100vw - 3rem)
+    }
+}
 
 
