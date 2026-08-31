@@ -10944,6 +10944,12 @@ header.masthead .bg-circle-4 {
     grid-template-rows: 1fr;
 }
 
+.collapse-margin-esf{
+
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 
 .collapse-margin{
 
