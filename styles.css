@@ -10920,7 +10920,11 @@ header.masthead .bg-circle-4 {
 .collapse-css > div {
     overflow: hidden;
    
-  
+
+}
+
+.collapse-toggle:checked ~ .collapse-css {
+    display: block !important;
 }
 
 .collapse-item > .collapse-toggle:checked ~ .collapse-css {
