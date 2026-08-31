@@ -10925,6 +10925,26 @@ header.masthead .bg-circle-4 {
     grid-template-rows: 1fr;
 }
 
+
+
+
+.collapse-esf {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease;
+    min-height: 0;
+}
+
+.collapse-esf > div {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.collapse-item-esf > .collapse-toggle:checked ~ .collapse-esf {
+    grid-template-rows: 1fr;
+}
+
+
 .collapse-margin{
 
     margin-right: 5px;
