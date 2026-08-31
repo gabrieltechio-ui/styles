@@ -10909,34 +10909,25 @@ header.masthead .bg-circle-4 {
 
 }
 
+.collapse-principal,
 .collapse-css {
-    display: grid;
-     grid-template-rows: 0fr;
-    transition: grid-template-rows 0.35s ease;
-      min-height: 0;
-    height: auto;
-}
-/*
-.collapse-toggle:checked ~ .collapse-css {
     display: grid;
     grid-template-rows: 0fr;
     transition: grid-template-rows 0.35s ease;
-} */
-
-.collapse-css > div {
-    overflow: hidden;
-   overflow: hidden;
     min-height: 0;
-   
-
 }
 
+.collapse-principal > div,
+.collapse-css > div {
+    min-height: 0;
+    overflow: hidden;
+}
 
+.collapse-item > .collapse-toggle:checked ~ .collapse-principal,
 .collapse-item > .collapse-toggle:checked ~ .collapse-css {
     grid-template-rows: 1fr;
-
-
 }
+
 .collapse-margin{
 
     margin-right: 5px;
