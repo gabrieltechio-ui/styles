@@ -10909,7 +10909,6 @@ header.masthead .bg-circle-4 {
 
 }
 
-.collapse-principal,
 .collapse-css {
     display: grid;
     grid-template-rows: 0fr;
@@ -10917,13 +10916,11 @@ header.masthead .bg-circle-4 {
     min-height: 0;
 }
 
-.collapse-principal > div,
 .collapse-css > div {
     min-height: 0;
     overflow: hidden;
 }
 
-.collapse-item > .collapse-toggle:checked ~ .collapse-principal,
 .collapse-item > .collapse-toggle:checked ~ .collapse-css {
     grid-template-rows: 1fr;
 }
