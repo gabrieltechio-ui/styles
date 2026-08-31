@@ -10913,6 +10913,8 @@ header.masthead .bg-circle-4 {
     display: grid;
      grid-template-rows: 0fr;
     transition: grid-template-rows 0.35s ease;
+      min-height: 0;
+    height: auto;
 }
 /*
 .collapse-toggle:checked ~ .collapse-css {
@@ -10923,6 +10925,8 @@ header.masthead .bg-circle-4 {
 
 .collapse-css > div {
     overflow: hidden;
+   overflow: hidden;
+    min-height: 0;
    
 
 }
