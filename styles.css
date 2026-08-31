@@ -10910,7 +10910,7 @@ header.masthead .bg-circle-4 {
 }
 
 .collapse-css {
-    display: grid;
+    display: none;
     grid-template-rows: 0fr;
     transition: grid-template-rows 0.35s ease;
 
