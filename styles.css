@@ -10903,70 +10903,51 @@ header.masthead .bg-circle-4 {
 
 /* Esconde o checkbox */
 .collapse-toggle {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
+position: absolute;
+opacity: 0;
+pointer-events: none;
 
 }
 
 .collapse-css {
-    display: grid;
-    grid-template-rows: 0fr;
-    transition: grid-template-rows 0.35s ease;
-    min-height: 0;
+display: none;
+grid-template-rows: 0fr;
+transition: grid-template-rows 0.35s ease;
 }
 
+
+.collapse-toggle:checked ~ .collapse-css {
+display: grid;
+grid-template-rows: 1fr;
+transition: grid-template-rows 0.35s ease;
+} 
+
 .collapse-css > div {
-    min-height: 0;
-    overflow: hidden;
+overflow: hidden;
+
 }
 
 .collapse-item > .collapse-toggle:checked ~ .collapse-css {
-    grid-template-rows: 1fr;
+grid-template-rows: 1fr;
+
 }
-
-
-
-
-.collapse-esf {
-    display: hidden;
-    grid-template-rows: 0fr;
-    transition: grid-template-rows 0.35s ease;
-    min-height: 0;
-}
-
-.collapse-esf > div {
-    min-height: 0;
-    overflow: hidden;
-}
-
-.collapse-item-esf > .collapse-toggle:checked ~ .collapse-esf {
-    grid-template-rows: 1fr;
-}
-
-.collapse-margin-esf{
-
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-
 .collapse-margin{
 
-    margin-right: 5px;
-    margin-left: 5px;
+margin-right: 5px;
+margin-left: 5px;
+
 }
 
 .toggle-on {
-    display: none;
+display: none;
 }
 
 .collapse-toggle:checked ~ .text-left .toggle-off {
-    display: none;
+display: none;
 }
 
 .collapse-toggle:checked ~ .text-left .toggle-on {
-    display: inline-block;
+display: inline-block;
 }
 
 .text-left label{
