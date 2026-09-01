@@ -318,3 +318,360 @@ ul li{
 
 
 
+
+/* Esconde o checkbox */
+.collapse-toggle {
+position: absolute;
+opacity: 0;
+pointer-events: none;
+
+}
+
+.collapse-css {
+display: grid;
+grid-template-rows: 0fr;
+transition: grid-template-rows 0.35s ease;
+}
+
+
+.collapse-toggle:checked ~ .collapse-css {
+display: grid;
+grid-template-rows: 1fr;
+transition: grid-template-rows 0.35s ease;
+} 
+
+.collapse-css > div {
+overflow: hidden;
+
+}
+
+.collapse-item > .collapse-toggle:checked ~ .collapse-css {
+grid-template-rows: 1fr;
+
+}
+
+
+
+.collapse-esf {
+display: none;
+grid-template-rows: 0fr;
+transition: grid-template-rows 0.35s ease;
+}
+
+
+.collapse-toggle:checked ~ .collapse-esf {
+display: grid;
+grid-template-rows: 1fr;
+transition: grid-template-rows 0.35s ease;
+} 
+
+.collapse-teste > div {
+overflow: hidden;
+
+}
+
+.collapse-item > .collapse-toggle:checked ~ .collapse-esf {
+grid-template-rows: 1fr;
+
+}
+
+.esf{
+    border-radius: 50px !important; 
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #1283BE;
+    color: #1283BE;
+    box-shadow: 0px 5px 10px rgba(18, 131, 190, 1.0);
+    background-color: white;   
+
+}
+
+.esf{
+    border-radius: 50px !important; 
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #1283BE;
+    color: #1283BE;
+    box-shadow: 0px 5px 10px rgba(18, 131, 190, 1.0);
+    background-color: white;   
+
+}
+
+
+.text-blue {
+    color: #1283BE !important;
+}
+
+.esf:hover .text-blue {
+    color: white !important;
+}
+.esf:hover {
+    background-color: #1283BE;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.collapse-margin{
+
+margin-right: 5px;
+margin-left: 5px;
+
+}
+
+.toggle-on {
+display: none;
+}
+
+.collapse-toggle:checked ~ .text-left .toggle-off {
+display: none;
+}
+
+.collapse-toggle:checked ~ .text-left .toggle-on {
+display: inline-block;
+}
+
+.text-left label{
+    display: flex;
+    align-items: center;
+}
+
+.toggle-off,
+.toggle-on {
+    margin-right: 10px;
+    line-height: 1;
+}
+
+
+.collapse-toggle:checked ~ .text-right .plus-off {
+    display: none;
+}
+
+.collapse-toggle:checked ~ .text-right .plus-on {
+    display: inline-block;
+}
+
+.plus-on {
+    display: none;
+}
+
+.text-right label {
+    display: flex;
+    align-items: center;
+}
+
+.foto{
+
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+.header2{
+
+    background-image: url("https://gabrieltechio-ui.github.io/styles/fundo.png") !important;
+}
+
+.titulo-coluna {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    margin: 0 0 16px 0;
+}
+
+
+.card-top {
+    height: 310px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    align-items: center;
+
+}
+
+.item-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+
+}
+
+.item-menu i {
+    font-size: 19px;
+}
+
+.item-menu:hover {
+    color: #fff;
+    opacity: 0.88;
+}
+
+.bg-purple {
+    background: #aa2eaa;
+}
+
+.bg-blue {
+    background: #24517f;
+}
+
+.bg-green {
+    background: #299447;
+}
+
+.bg-cyan {
+    background: #20a3df;
+}
+.bg-light{
+    background: #FBFBFB !important;
+}
+
+
+/* SERVIÇOS */
+
+.servico {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    padding: 8px 14px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.servico:last-child {
+    border-bottom: 0;
+}
+
+.servico p {
+    width: 25px;
+    margin-right: 4px;
+    color: #1999dc;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.servico div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.servico:hover {
+    background: #f8f8f8;
+}
+
+
+/* LINKS ÚTEIS */
+
+.link-util {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    padding: 8px 12px;
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.link-util:last-child {
+    border-bottom: 0;
+}
+
+.link-util i {
+    margin-right: 8px;
+    color: #159bdd;
+    font-size: 20px;
+}
+
+.link-util:hover {
+    background: #f8f8f8;
+}
+
+
+/* ARRECADAÇÃO */
+
+.arrecadacao {
+    max-height: 297px;
+    overflow-y: auto;
+}
+
+.arrecadacao::-webkit-scrollbar {
+    width: 7px;
+}
+
+.arrecadacao::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+}
+
+.arrecadacao::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+.card-container {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center; 
+      align-items: center;    
+      padding: 30px;
+    }
+
+    .card-service {
+        background-color: #ffffff;
+        border: 1px solid lightblue;
+        border-radius: 8px;
+        width: 170px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+
+.card-service:hover {
+      border-color: #0099ff;
+      box-shadow: 0 4px 12px rgba(0, 153, 255, 0.1);
+      transform: translateY(-2px);
+    }
+
+.card-service i {
+      font-size: 32px;
+      color: #0099ff;
+      margin-bottom: 16px;
+    }
+
+.card-service span {
+      color: #4a5568;
+      font-size: 15px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .row.align-items-stretch .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* O corpo ganha flex-grow para empurrar o footer azul para o final */
+.card-body {
+    flex: 1 1 auto;
+}
+
+
