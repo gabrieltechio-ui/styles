@@ -278,34 +278,7 @@
 	margin-right: 0px !important;
 }
 
-@media (max-width: 576px) {
 
-    .espacamento-responsivo {
-        padding: 0 !important;
-    }
-
-    .espacamento-responsivo .row {
-        --bs-gutter-x: 0.50rem !important;
-        --bs-gutter-y: 1rem !important;
-    }
-
-	 .card-service {
-            width: 90px;
-            height: 110px;
-        }
-        .col-6{
-            font-size: 12px;
-            margin-top:50px;
-        }
-        .secretaria{
-            font-size: 9px;
-        }
-        .foto{
-            margin-bottom: 10px;
-        }
-       
-
-}
 
 
 
