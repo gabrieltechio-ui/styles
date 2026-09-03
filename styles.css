@@ -11283,8 +11283,7 @@ grid-template-rows: 1fr;
 
 .banner{
     border-radius: 30px !important; 
-    border: 1px solid #1283BE;
-    box-shadow: 0px 0px 100px rgba(0, 0, 255, 1.0);
+    box-shadow: 0px 0px 30px rgba(0, 0, 255, 0.8);
 }
 
 
