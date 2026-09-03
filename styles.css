@@ -11561,7 +11561,6 @@ display: inline-block;
 }
 
 .banner{
-    margin: 30px !important;
     box-shadow: 0px 0px 30px rgba(0, 0, 255, 0.8);
     border-radius: 30px;
 }
