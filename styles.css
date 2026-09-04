@@ -11225,14 +11225,14 @@ pointer-events: none;
 .collapse-css {
 display: grid;
 grid-template-rows: 0fr;
-transition: grid-template-rows 0.35s ease;
+transition: grid-template-rows 0.70s ease;
 }
 
 
 .collapse-toggle:checked ~ .collapse-css {
 display: grid;
 grid-template-rows: 1fr;
-transition: grid-template-rows 0.35s ease;
+transition: grid-template-rows 0.70s ease;
 } 
 
 .collapse-css > div {
@@ -11250,14 +11250,14 @@ grid-template-rows: 1fr;
 .collapse-esf {
 display: none;
 grid-template-rows: 0fr;
-transition: grid-template-rows 0.35s ease;
+transition: grid-template-rows 0.70s ease;
 }
 
 
 .collapse-toggle:checked ~ .collapse-esf {
 display: grid;
 grid-template-rows: 1fr;
-transition: grid-template-rows 0.35s ease;
+transition: grid-template-rows 0.70s ease;
 } 
 
 .collapse-teste > div {
